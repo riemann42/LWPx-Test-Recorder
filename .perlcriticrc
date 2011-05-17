@@ -1,0 +1,22 @@
+severity = 2
+verbose = 9
+[Documentation::RequirePodSections]
+    language = en_US
+    lib_sections    = NAME | DESCRIPTION | SYNOPSIS | METHODS | AUTHOR | LICENSE
+    script_sections = NAME | USAGE | OPTIONS | EXIT STATUS | AUTHOR | LICENSE
+
+
+# PBP says to build tables, perltidy wrecks them.
+[-CodeLayout::RequireTidyCode]
+
+[-Miscellanea::RequireRcsKeywords]
+
+# Things I used to think were ok before reading PBP.
+#[-RegularExpressions::RequireDotMatchAnything]
+#[-RegularExpressions::RequireExtendedFormatting]
+#[-RegularExpressions::RequireLineBoundaryMatching]
+#[-ValuesAndExpressions::ProhibitNoisyQuotes] 
+#[-Variables::ProhibitPunctuationVars]
+#[-ValuesAndExpressions::ProhibitEmptyQuotes]
+#[ControlStructures::ProhibitCascadingIfElse]
+#    max_elsif = 5

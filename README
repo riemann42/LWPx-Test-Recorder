@@ -1,0 +1,35 @@
+LWPx-Test-Recorder version 0.0.1
+
+This is a basic module for "recording" LWP::UserAgent sessions for testing in
+an environment without an Internet connection, or in cases where this would be
+unwise because a successfull test requires a password or key.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+Alternatively, to install with Module::Build, you can use the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+
+DEPENDENCIES
+
+LWP
+File::Slurp
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011, Edward Allen
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
