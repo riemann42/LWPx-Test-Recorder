@@ -14,6 +14,10 @@ my $builder = Module::Build->new(
         'File::Slurp' => 0,
     },
     add_to_cleanup      => [ 'LWPx-Test-Recorder-*' ],
+    create_makefile_pl => 'traditional',
+    use_tap_harness => 1,
+    create_license => 1,
+    release_status => 'unstable',
 );
 
 $builder->create_build_script();

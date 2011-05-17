@@ -26,6 +26,12 @@ DEPENDENCIES
 LWP
 File::Slurp
 
+SOURCE
+    Source is available at github: http://github.com/riemann42/LWPx-Test-Recorder
+
+BUG TRACKING
+    Please use github for bug tracking: http://github.com/riemann42/LWPx-Test-Recorder/issues.
+
 
 COPYRIGHT AND LICENCE
 

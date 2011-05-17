@@ -7,3 +7,5 @@ t/00.load.t
 t/90-perlcritic.t
 t/97-pod.t
 t/98-pod-coverage.t
+LICENSE
+META.yml

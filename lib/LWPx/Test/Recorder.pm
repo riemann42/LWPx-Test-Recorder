@@ -229,6 +229,7 @@ LWPx::Test::Recorder requires no configuration files or environment variables.
 =head1 DEPENDENCIES
 
 LWP is required for this to work, as it is a subclass of LWP::UserAgent.
+Also, File::Slurp is used because I am lazy.
 
 =head1 INCOMPATIBILITIES
 
@@ -251,14 +252,16 @@ Currently there is no support for Cookies, etc.
 
 =back
 
-Please report any bugs or feature requests to either:
+Please report any bugs or feature requests to:
 
 =over
 
-=item add git info here
+=item L<http://github.com/riemann42/LWPx-Test-Recorder/issues>.
 
 =item C<bug-test-lwp-recorder@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.
+
+=back
 
 =head1 AUTHOR
 
